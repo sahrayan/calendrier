@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    display: flex;
+    min-height: 100vh; /* viewport height */
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+#calendar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 960px;
+    
+}
+
+.window {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin: 5px;
+
+}
+
+.txt-box span {
+    color: white;
+    font-size: 40px;
+
+}
